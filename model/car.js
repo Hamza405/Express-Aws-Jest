@@ -4,3 +4,5 @@ class Car {
     (this.name = name), (this.engin = engin), (this.color = color);
   }
 }
+
+module.exports = Car;

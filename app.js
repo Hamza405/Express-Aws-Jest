@@ -8,3 +8,5 @@ app.use(api);
 app.listen(port, () => {
   console.log("App running on http://localhost:" + port);
 });
+
+module.exports = app;
